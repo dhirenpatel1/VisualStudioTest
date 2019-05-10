@@ -23,7 +23,7 @@ namespace GitHubProject
             Thread.Sleep(TimeSpan.FromSeconds(2));
 
             driver.FindElement(By.Name("q")).SendKeys("Selenium");
-            Thread.Sleep(TimeSpan.FromSeconds(2));
+            Thread.Sleep(TimeSpan.FromSeconds(1));
 
             driver.Close();
         }
